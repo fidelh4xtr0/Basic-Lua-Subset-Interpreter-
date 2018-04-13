@@ -4,7 +4,6 @@ Basic interpreter in java for a subset grammar of the lua language.
 Language grammar used in following BNF form:
 
 <program> → function id ( ) <block> end
-  
 <block> → <statement> | <statement> <block>
   
 <statement> → <if_statement> | <assignment_statement> | <while_statement> |
